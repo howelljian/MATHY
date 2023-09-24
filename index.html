@@ -1,0 +1,97 @@
+<html>
+    <head>
+       <title>Math Quiz</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body >
+    <center>
+        
+        <div>
+            <h1 id="heading">Math Quiz</h1>
+
+            
+            <h4>Multi-Digit Multiplication</h4>
+
+            
+            
+            
+            
+            <h4>____________________________________________________________________________</h4>
+            <br>
+            <br>
+           
+            <div class="container">
+                <h2>
+                    What is...
+                </h2>
+           
+
+                <h1 id="Problem"></h1>
+                <br><br>
+                
+                    <input id="user_input" placeholder="Answer">
+                    <br><br>
+                    <div>
+                    <span>
+                    <button class="btn btn-primary" onclick="New()">New Question</button>
+                    <button class="btn btn-danger" onclick="Submit()">Submit</button>
+                    </span>
+                </div>
+                <br>
+                    <button class="btn btn-success" onclick="Reveal()">Reveal Answer</button>
+
+               
+                    
+               
+
+                <br>
+
+                <h3 id="confirm"></h3>
+
+                <br><br>
+
+                <h4 id="reveal">The Correct Answer is...</h4>
+                <br><br>
+                <div>
+                <span>
+                <button class="btn btn-default" onclick="Change()">Change Mode</button>
+                <button class="btn btn-warning" onclick="ResetGame()">Reset Game</button>
+                </span>
+                <br><br>
+
+                <label id="score">Score: 0</label>
+                <label id="accuracy">Accuracy: 0%</label>
+            </div>
+
+        </div>
+           
+
+
+
+
+            
+
+            
+
+    
+
+        </div>
+
+        
+
+
+    </center>
+</body>
+
+<script src="main.js"></script>
